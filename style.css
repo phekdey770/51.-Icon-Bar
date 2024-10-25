@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    padding-left: 20px;
+}
+
+.icon-bar {
+    width: 70px;
+    background-color: #b8b8b8;
+    border-radius: 15px;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: rgb(144, 144, 144);
+    font-size: 36px;
+    border-radius: 15px;
+}
+
+.icon-bar a:hover {
+    background-color: #636363;
+}
+
+.icon-bar a.active {
+    background-color: #108cab60;
+    color: rgb(255, 255, 255);
+}
